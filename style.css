@@ -1,0 +1,104 @@
+body, html, h1, button, input{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(v462-n-130-textureidea_1.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+}
+.barra{
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    box-shadow: 2px 3px 1px rgb(0, 0, 0),
+                1px 1px 3px rgba(255, 255, 255, 0.342) inset,
+                -1px -1px 3px rgba(0, 0, 0, 0.916) inset;
+    padding: 2px;
+    text-shadow: 1px 1px black;
+    font-weight: 900;
+    max-width: 400px;
+    border-radius: 5px;
+    padding-left: 4px;
+
+}
+
+.container-background{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 30px;
+  
+}
+
+
+.background-title{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    
+}
+
+input.quantidade-input{
+    width: 60%;
+    border: none;
+    height: 30px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+button.botao{
+    width: 30%;
+    height: 30px;
+    border:none;
+    background-color: rgb(145, 145, 245);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 900px){
+
+    .container-background{
+        max-width: 900px;
+        width: 800px;
+    }
+
+    .barra{
+        max-width: 780px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: ;
+    }
+
+    input.quantidade-input{
+        max-width: 300px;
+        margin-left: 100px;
+    }
+
+    button.botao{
+        margin-right: 150px;
+    }
+
+    button.botao:hover{
+        background-color: rgb(48, 48, 155);
+        color: white;
+        
+    }
+
+}
